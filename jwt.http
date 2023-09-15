@@ -1,0 +1,15 @@
+### LOGIN
+POST http://localhost:9000/auth/login
+Content-Type: application/json
+
+{"username":"Blona", "password":"ToTheSky"}
+
+### REGISTER
+POST http://localhost:9000/auth/register
+Content-Type: application/json
+
+{"username":"Blona", "password":"ToTheSky"}
+
+
+### GET USERS
+GET http://localhost:9000/users
